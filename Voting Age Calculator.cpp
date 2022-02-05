@@ -13,6 +13,12 @@ int main() {
         cout << "Invalid age";
     }
 
+     else if (age<11)
+    {
+        cout << "You are too Young for Voting!";
+    }
+
+
     else if (age<=16) // valid age for Voting in India is 18 or Above 18
     {
         cout << "You Can't Vote Yet" "\n";
@@ -27,7 +33,7 @@ int main() {
     
     else 
     {
-        cout << "You Can Vote Now";
+        cout << "You Can Vote Now!";
     }
 
 }
