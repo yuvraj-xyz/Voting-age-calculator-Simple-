@@ -8,7 +8,7 @@ int main() {
 
     int differ = 18 - age;
 
-    if (age>150 || age<1)
+    if (age>150 or age<1)
     {
         cout << "Invalid age";
     }
@@ -25,7 +25,7 @@ int main() {
         cout << "But You can Vote in " << differ << " Years" "\n";
     }
 
-    else if (age=16 && differ==1)
+    else if (age=17 and differ==1)
     {
         cout << "You Can't Vote Yet" "\n";
         cout << "But You can Vote in " << differ << " Year" "\n";
